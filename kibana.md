@@ -245,16 +245,21 @@ readonlyrest_kbn.session_timeout_minutes: 600 # defaults to 4320 (3 days)
 
 Examples of valid arguments for the `kibana_hide_apps: [...]` rule (readonlyrest.yml) 
 
-* kibana:discover
-* kibana:visualize
-* timelion
-* readonlyrest_kbn
-* canvas
 * apm
+* canvas
 * infra:home
 * infra:logs
+* kibana:dashboards
 * kibana:dev_tools
+* kibana:discover
 * kibana:management
+* kibana:visualize
+* maps
+* monitoring
+* readonlyrest_kbn
+* timelion
+* uptime
+
 
 ## Kibana configuration
 
